@@ -1,0 +1,16 @@
+{
+    "loading": ["Hang on a minute, I'm loading."],
+    "start": ["I'm setup and ready."],
+    "intro": ["Hi, I'm Dee. Would you like to play a game? I'll ask you a question, and you have to show me the right picture. Are you ready?"],
+    "missing": ["Missing speech"],
+    "do_another": [
+        "Let's try another question.",
+        "Let's try another.",
+        "Would you like to play again?",
+        "Let's do another one.",
+        "Let's do more!",
+        "Let's do another question, shall we?",
+        "Can we keep going? This is fun."
+    ]
+
+}
