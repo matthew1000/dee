@@ -1,0 +1,101 @@
+[
+    {
+        "q": "Can you show me something that flies?",
+        "a": {
+            "bird": "Yes, birds fly!",
+            "aeroplane": "That's right! Planes are great at flying."
+        },
+        "incorrect": {
+            "default": "That doesn't fly! Can you find a bird or a plane?"
+        }
+    },
+    {
+        "q": "Can you show me a form of transport?",
+        "a": {
+            "bus": "Yes!",
+            "motorbike": "Good choice! A motorbike is a form of transport.",
+            "aeroplane": "Very clever. Yes, an aeroplane is a type of transport.",
+            "bicycle": "That's right!",
+            "horse": "Yes, a horse can be used to transport people. You're very clever!"
+        },
+        "incorrect": {
+            "default": "That's not a form of transport! Try finding a bus, or a plane, or a bike.",
+            "sheep": "Sheep move, but they're not really a form of transport. Try again.",
+            "cow": "A cow? That's not really transport. Have another go."
+        }
+    },
+    {
+        "q": "What goes baaaaaa?",
+        "a": {"sheep": "That's right! Sheep say baaaaaaaaa." },
+        "incorrect": {
+            "default": "That's not right, only sheep go baa! Can you find a sheep?"
+        }
+    },
+    {
+        "q": "What goes neigh?",
+        "a": {"horse": "Yes! You're so smart." },
+        "incorrect": {
+            "default": "I was expecting a horse! Can you show me a horse?",
+            "sheep": "They say baaaaa, not neigh!! Can you find a horse?",
+            "cow": "They say mooooo, not neigh! Can you find something that says neigh?"
+        }
+    },
+    {
+        "q": "What says moooooo?",
+        "a": {"cow": "Yes! You're very clever." },
+        "incorrect": {
+            "horse": "Horses say neigh! Can you find a cow?",
+            "sheep": "They say baaaaaa, not moooooo!! Can you show me a cow?",
+            "horse": "Horses say neigh. Cows say moo, can you find a cow?",
+            "default": "Only cows go moo! Where is the cow, can you see it?"
+        }
+    },
+    {
+        "q": "What drives along a road?",
+        "a": {
+            "bus": "That's right! A bus drives on a road.",
+            "motorbike": "That's right! A motorbike uses a road.",
+            "bicycle": "Yes, very good! Bikes can use roads."
+        },
+        "incorrect": {
+            "aeroplane": "Planes fly in the air, they don't use roads. Can you find something that uses roads?",
+            "default": "I'm not sure that really uses roads. Can you find a bus or bike?"
+        }
+    },
+    {
+        "q": "What has wheels? Can you show me something that has wheels?",
+        "a": {
+            "bus": "Correct! A bus has lots of wheels.",
+            "motorbike": "That's right! A motorbike has two wheels.",
+            "aeroplane": "That's right! A plane has wheels for taking off and landing.",
+            "bicycle": "Spot on! A bike has wheels."
+        },
+        "incorrect": {
+            "default": "No, that doesn't have wheels. Can you find a bike or bus?",
+            "sheep": "That's not right! A sheep doesn't have wheels! Can you find something with wheels?",
+            "cow": "That doesn't look right! A cow doesn't have wheels! Try again.",
+            "horse": "A horse? They don't have wheels! Try something else."
+        }
+    },
+    {
+        "q": "Show me an animal.",
+        "a": {
+            "sheep": "Yes! A sheep is an animal.",
+            "bird": "Wow, you're right! A bird is an animal.",
+            "horse": "Hooray! A horse is an animal.",
+            "cow": "Great choice! A cow is an animal."
+        },
+        "incorrect": {
+            "default": "That's not an animal! Can you show me a sheep, cow, bird, or a horse?"
+        }
+    },
+    {
+        "q": "Show me something that takes off from an airport.",
+        "a": {
+            "aeroplane": "Yes, an aeroplane can take off from an airport. Great work!"
+        },
+        "incorrect": {
+            "default": "That can't take off from an airport! I was hoping to see a plane. Can you show me a plane?"
+        }
+    }
+]
