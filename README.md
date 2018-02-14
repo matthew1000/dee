@@ -26,7 +26,7 @@ This uses the one of DeepLens's predefined models, `deeplens-object-detection`.
 
 ## How to install
 
-### Part 1: Configure DeepLens
+### Part 1: Configure DeepLens
 
 * This is assuming DeepLens is already set up and registered
 * On the DeepLens device, install gstreamer and Python's `playsound` library:
@@ -44,7 +44,7 @@ sudo pip install playsound
 * Upload the code. The `deploy.sh` script can help with this.
 * Publish the function.
 
-### Part 3: Create and deploy the project
+### Part 3: Create and deploy the project
 
 * In the AWS web console, create a new DeepLens project, called e.g. 'dee'. Use the 'Create a new blank project' option
 * Add the model `deeplens-object-detection`
@@ -67,4 +67,4 @@ This fixes it (provided via https://forums.aws.amazon.com/thread.jspa?messageID=
 
 This repo includes the 69 MP3 files required for Dee to speak. It does not require Polly to operate.
 
-If you change the questions, or want to change the choice of voice, use [download_phrases.py] to download the phrases from Polly again.
+If you change the questions, or want to change the choice of voice, use [download_phrases.py](download_phrases.py) to download the phrases from Polly again.
