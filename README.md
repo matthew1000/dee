@@ -1,8 +1,6 @@
-# Dee
+# Dee, the *DeepLens Educating Entertainer*.
 
 ![Picture of Dee](dee.jpg)
-
-Meet Dee, the *DeepLens Educating Entertainer*.
 
 Dee is a prototype for how image recognition can be used to make educational tools.
 It's designed to work with young or less-abled children who may struggle to interact
@@ -32,7 +30,7 @@ This uses the one of DeepLens's predefined models, `deeplens-object-detection`.
 * On the DeepLens device, install gstreamer and Python's `playsound` library:
 
 ```
-sudo apt-get install python-gst-1.0 gstreamer1.0-fluendo-mp3§
+sudo apt-get install python-gst-1.0 gstreamer1.0-fluendo-mp3
 sudo pip install playsound
 ```
 
@@ -40,7 +38,6 @@ sudo pip install playsound
 
 * Create a Lambda function, with a name such as 'dee', using Python 2.7. It can use the standard `AWSDeepLensLambda` role.
 * Change the handler to `dee.function_handler`
-* I've given it memory of 1536MB (though haven't checked how appropriate this is).
 * Upload the code. The `deploy.sh` script can help with this.
 * Publish the function.
 
